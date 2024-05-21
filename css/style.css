@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Encode Sans Condensed'), url('../font/EncodeSansCondensed.woff') format('woff');
+    font-display: swap;
+}
+
+:root {
+    --primary: #ffffff;
+    --secondary: #9D0208;
+    --third: #025BED;
+    --fourth: #0A0908;
+    --background: #344E41;
+    --font: 'Encode Sans Condensed', sans-serif;
+}
+body,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Encode Sans Condensed, sans-serif;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--third);
+    padding: 10px;
+    opacity: 0.5;
+    
+}
+.text {
+    color: var(--primary);
+    text-decoration: none;
+}
+.title {
+    color: var(--fourth);
+    font-family: var(--font);
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0;
+}
+.container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
